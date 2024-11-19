@@ -52,4 +52,3 @@ Cypress.Commands.add('login', (
     cy.get('.qa-issuable-form-description').type(issue.description)
     cy.contains('Submit issue').click()
   })
-  
